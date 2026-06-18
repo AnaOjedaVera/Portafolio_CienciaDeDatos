@@ -1,87 +1,120 @@
 # Data Science Portfolio – Ana V. Ojeda Vera
 
-This repository contains selected academic, applied, and practice projects related to data analysis, machine learning, scientific visualization, dashboard design, and data-driven reporting. Some projects are exploratory exercises developed to practice Power BI and data visualization workflows, while others are related to scientific research, papers, posters, and conference presentations.
+This repository contains a selection of academic, applied, and practice projects related to data analysis, scientific visualization, dashboard design, machine learning, and data-driven communication.
 
-## Areas of work
+Some projects are exploratory exercises developed to practice Power BI workflows, while others are related to scientific research, papers, posters, and conference presentations. Each folder contains the corresponding project files, including datasets, Power BI files (`.pbix`), and reference images showing the dashboard design and functionality.
+
+## Areas of Work
 
 * Data analysis and preprocessing
-* Scientific data visualization
+* Scientific visualization
 * Power BI dashboard design
 * Spectral data analysis
 * Machine learning classification
 * Dimensionality reduction: PCA, t-SNE, UMAP
 * Clustering and unsupervised learning
-* Data storytelling and reporting
+* Visual communication of results
+* Business intelligence and exploratory analysis
+
+## Repository Structure
+
+```text
+Asteroides/
+Ejercicio1/
+Ejercicio2/
+Ejercicio3/
+Estrellas/
+Minerales/
+```
+
+Each folder may include:
+
+* Dataset files
+* Power BI report file (`.pbix`)
+* Dashboard screenshots or preview images
+* Complementary analysis files
 
 ## Projects
 
-### 1. Mercury Spectral Analysis Dashboard
+### 1. Asteroides – Spectral Indicators and Taxonomy Dashboard
 
-Power BI dashboard developed for the analysis of MASCS/VIRS spectral data from Mercury surface units. The dashboard supports the exploration of spectral indicators, statistical summaries, comparative metrics, and visualization of surface unit behavior.
+This project focuses on the comparison of asteroid taxonomic classes based on DeMeo et al. (2009). The dashboard allows the exploration of spectral differences among classes, reflectance behavior, spectral indicators, and albedo values.
 
-**File:** `Mercury.pbix`
-**Topics:** Spectral analysis, planetary science, data visualization, Power BI.
+This project is related to the use of data science methods to support the interpretation of taxonomic patterns in small bodies of the Solar System.
 
----
-
-### 2. Mineral Spectra and Absorption Bands Dashboard
-
-Power BI dashboard for visualizing and comparing mineral spectra and their diagnostic absorption bands. This project supports the exploration of spectral differences among minerals and helps analyze absorption features associated with different mineral groups.
-
-**File:** `Minerales2.pbix`
-**Topics:** Mineral spectra, absorption bands, spectral comparison, Power BI.
+**Folder:** `Asteroides/`
+**Topics:** Asteroid taxonomy, spectral data, albedo, spectral indicators, scientific visualization, Power BI.
 
 ---
 
-### 3. Stellar Spectral Types Dashboard
+### 2. Minerales – Mineral Spectra and Absorption Bands Dashboard
 
-Power BI dashboard for exploring stellar spectral types and subtypes. This project supports the visualization of stellar classification data and allows comparisons among spectral classes, subclasses, and related stellar properties.
+This dashboard was developed to visualize and compare mineral spectra and their absorption bands. The project supports the exploration of spectral differences among minerals and the analysis of diagnostic absorption features associated with different mineral groups.
 
-**File:** `Stars.pbix`
-**Topics:** Stellar classification, spectral types, astronomy, Power BI.
+This type of analysis is useful for the interpretation of spectral data in planetary science, mineralogy, and remote sensing.
 
----
-
-### 4. DeMeo Taxonomy Spectral Indicators Dashboard
-
-Power BI dashboard for comparing asteroid taxonomic classes based on DeMeo et al. (2009). The report explores spectral indicators, reflectance behavior, and albedo values to support the interpretation of asteroid classification patterns.
-
-**File:** `Indicadores.pbix`
-**Topics:** Asteroid taxonomy, spectral indicators, albedo, scientific visualization.
+**Folder:** `Minerales/`
+**Topics:** Mineral spectra, absorption bands, spectral comparison, scientific visualization, Power BI.
 
 ---
 
-### 5. Power BI Exercise 1 – US Population Dashboard
+### 3. Estrellas – Stellar Spectral Types and Subtypes Dashboard
 
-Practice Power BI dashboard for analyzing population data in the United States by state, census region, census division, year, and population growth indicators. This exercise focuses on geographic comparisons, temporal trends, and interactive visual reporting.
+This dashboard was developed to explore stellar spectral types and subtypes. The project enables the visualization of stellar classification data and the comparison of spectral categories through interactive tools.
 
-**File:** `Ejercicio1.pbix`
-**Topics:** Population analysis, regional comparison, dashboard practice.
+This exercise integrates astronomy, scientific classification, and data visualization concepts.
 
----
-
-### 6. Power BI Exercise 2 – World Indicators Dashboard
-
-Practice Power BI dashboard for exploring world development indicators by country and region. The report includes population, GDP, GDP per capita, population density, regional comparisons, country-level detail views, and interactive map-based visualizations.
-
-**File:** `Ejercicio2.pbix`
-**Topics:** World indicators, GDP, population, maps, Power BI.
+**Folder:** `Estrellas/`
+**Topics:** Stellar classification, spectral types, stellar subtypes, astronomy, data visualization, Power BI.
 
 ---
 
-### 7. Power BI Exercise 3 – Adventure Works Sales Dashboard
+### 4. Ejercicio1 – United States Population Dashboard
 
-Practice Power BI dashboard based on Adventure Works data. This report includes sales performance, employee dashboards, product analysis, regional comparisons, year-over-year metrics, and interactive navigation.
+This Power BI practice exercise analyzes United States population data by state, census region, census division, year, and population growth indicators. The dashboard enables the exploration of temporal trends and geographic comparisons through interactive visualizations.
 
-**File:** `Ejercicio3.pbix`
-**Topics:** Sales analytics, business intelligence, product analysis, regional performance.
+**Folder:** `Ejercicio1/`
+**Topics:** Population analysis, census regions, population growth, maps, interactive visualization, Power BI.
+
+---
+
+### 5. Ejercicio2 – World Indicators Dashboard
+
+This Power BI practice exercise explores world development indicators by country and region. The dashboard includes variables such as population, GDP, GDP per capita, population density, regional comparisons, and map-based visualizations.
+
+**Folder:** `Ejercicio2/`
+**Topics:** World indicators, GDP, population, population density, regional analysis, maps, Power BI.
+
+---
+
+### 6. Ejercicio3 – Adventure Works Sales Dashboard
+
+This Power BI practice exercise is based on Adventure Works data. The dashboard includes sales analysis, employee performance, product analysis, regional comparisons, year-over-year metrics, and interactive navigation.
+
+This project is oriented toward business intelligence and commercial performance analysis.
+
+**Folder:** `Ejercicio3/`
+**Topics:** Business intelligence, sales analysis, products, employees, regional performance, YoY metrics, Power BI.
 
 ## Tools
 
-Power BI, Power Query, Excel, Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, GitHub.
+* Power BI
+* Power Query
+* Excel
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* GitHub
+
+## Portfolio Objective
+
+The objective of this portfolio is to demonstrate practical experience in data analysis, data processing, and data visualization through applied projects. The included projects show skills in dashboard development, exploratory analysis, data integration, visual communication of results, and the application of data science tools in scientific and professional practice contexts.
 
 ## Contact
 
 Ana V. Ojeda Vera
-Doctoral student in Data Science
+Doctoral Student in Data Science
 CITEDI-IPN
