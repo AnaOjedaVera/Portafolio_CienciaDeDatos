@@ -1,6 +1,8 @@
 # Portafolio de Ciencia de Datos – Ana V. Ojeda Vera
 
-Este repositorio contiene una selección de proyectos académicos, aplicados y de práctica relacionados con análisis de datos, aprendizaje automático, visualización científica, diseño de dashboards y comunicación de resultados basada en datos. Algunos proyectos son ejercicios exploratorios desarrollados para practicar flujos de trabajo en Power BI y visualización de datos, mientras que otros están relacionados con investigación científica, artículos, pósters y presentaciones en congresos.
+Este repositorio contiene una selección de proyectos académicos, aplicados y de práctica relacionados con análisis de datos, visualización científica, diseño de dashboards, aprendizaje automático y comunicación de resultados basada en datos.
+
+Algunos proyectos son ejercicios exploratorios desarrollados para practicar flujos de trabajo en Power BI, mientras que otros están relacionados con investigación científica, artículos, pósters y presentaciones en congresos. Cada carpeta contiene los archivos correspondientes al proyecto, incluyendo bases de datos, archivos de Power BI (`.pbix`) e imágenes de referencia que muestran el diseño y funcionamiento de los dashboards.
 
 ## Áreas de trabajo
 
@@ -12,73 +14,103 @@ Este repositorio contiene una selección de proyectos académicos, aplicados y d
 * Reducción de dimensionalidad: PCA, t-SNE, UMAP
 * Clustering y aprendizaje no supervisado
 * Comunicación visual de resultados
+* Inteligencia de negocios y análisis exploratorio
+
+## Estructura del repositorio
+
+```text
+Asteroides/
+Ejercicio1/
+Ejercicio2/
+Ejercicio3/
+Estrellas/
+Minerales/
+```
+
+Cada carpeta incluye, según el proyecto:
+
+* Base de datos utilizada
+* Archivo de Power BI (`.pbix`)
+* Imágenes o capturas del dashboard
 
 ## Proyectos
 
-### 1. Dashboard de análisis espectral de Mercurio
+### 1. Asteroides – Dashboard de indicadores espectrales y taxonomía
 
-Dashboard desarrollado en Power BI para el análisis de datos espectrales MASCS/VIRS de unidades superficiales de Mercurio. Permite explorar indicadores espectrales, resúmenes estadísticos, métricas comparativas y el comportamiento espectral de distintas regiones de estudio.
+Proyecto enfocado en la comparación de clases taxonómicas de asteroides con base en DeMeo et al. (2009). El dashboard permite analizar diferencias espectrales entre clases, comportamiento de reflectancia, indicadores espectrales y valores de albedo.
 
-**Archivo:** `Mercury.pbix`
-**Temas:** Análisis espectral, ciencia planetaria, visualización de datos, Power BI.
+Este proyecto está relacionado con el uso de ciencia de datos para apoyar la interpretación de patrones taxonómicos en cuerpos menores del Sistema Solar.
 
----
-
-### 2. Dashboard de espectros minerales y bandas de absorción
-
-Dashboard en Power BI para visualizar y comparar espectros de minerales y sus bandas de absorción diagnósticas. Este proyecto permite explorar diferencias espectrales entre minerales y analizar características de absorción asociadas con distintos grupos minerales.
-
-**Archivo:** `Minerales2.pbix`
-**Temas:** Espectros minerales, bandas de absorción, comparación espectral, Power BI.
+**Carpeta:** `Asteroides/`
+**Temas:** Taxonomía de asteroides, datos espectrales, albedo, indicadores espectrales, visualización científica, Power BI.
 
 ---
 
-### 3. Dashboard de tipos espectrales estelares
+### 2. Minerales – Dashboard de espectros minerales y bandas de absorción
 
-Dashboard en Power BI para explorar tipos y subtipos espectrales de estrellas. Este proyecto permite visualizar datos de clasificación estelar y comparar clases espectrales, subclases y propiedades asociadas.
+Dashboard desarrollado para visualizar y comparar espectros de minerales, así como sus bandas de absorción. El proyecto permite explorar diferencias espectrales entre minerales y analizar características diagnósticas asociadas con distintos grupos minerales.
 
-**Archivo:** `Stars.pbix`
-**Temas:** Clasificación estelar, tipos espectrales, astronomía, Power BI.
+Este tipo de análisis es útil para la interpretación de datos espectrales en ciencias planetarias, mineralogía y teledetección.
 
----
-
-### 4. Dashboard de indicadores espectrales de la taxonomía de DeMeo
-
-Dashboard en Power BI para comparar clases taxonómicas de asteroides con base en DeMeo et al. (2009). El reporte explora indicadores espectrales, comportamiento de reflectancia y valores de albedo para apoyar la interpretación de patrones de clasificación taxonómica.
-
-**Archivo:** `Indicadores.pbix`
-**Temas:** Taxonomía de asteroides, indicadores espectrales, albedo, visualización científica.
+**Carpeta:** `Minerales/`
+**Temas:** Espectros minerales, bandas de absorción, comparación espectral, visualización científica, Power BI.
 
 ---
 
-### 5. Ejercicio Power BI 1 – Dashboard de población de Estados Unidos
+### 3. Estrellas – Dashboard de tipos y subtipos espectrales
 
-Ejercicio práctico en Power BI para analizar datos de población de Estados Unidos por estado, región censal, división censal, año e indicadores de crecimiento poblacional. Este ejercicio se enfoca en comparaciones geográficas, tendencias temporales y reportes visuales interactivos.
+Dashboard desarrollado para explorar tipos y subtipos espectrales de estrellas. El proyecto permite visualizar información de clasificación estelar y comparar categorías espectrales mediante herramientas interactivas.
 
-**Archivo:** `Ejercicio1.pbix`
-**Temas:** Análisis poblacional, comparación regional, práctica de dashboards.
+Este ejercicio integra conceptos de astronomía, clasificación científica y visualización de datos.
 
----
-
-### 6. Ejercicio Power BI 2 – Dashboard de indicadores mundiales
-
-Ejercicio práctico en Power BI para explorar indicadores de desarrollo mundial por país y región. El reporte incluye población, PIB, PIB per cápita, densidad poblacional, comparaciones regionales, vistas detalladas por país y visualizaciones interactivas con mapas.
-
-**Archivo:** `Ejercicio2.pbix`
-**Temas:** Indicadores mundiales, PIB, población, mapas, Power BI.
+**Carpeta:** `Estrellas/`
+**Temas:** Clasificación estelar, tipos espectrales, subtipos estelares, astronomía, visualización de datos, Power BI.
 
 ---
 
-### 7. Ejercicio Power BI 3 – Dashboard de ventas Adventure Works
+### 4. Ejercicio1 – Dashboard de población de Estados Unidos
 
-Ejercicio práctico en Power BI basado en datos de Adventure Works. El reporte incluye desempeño de ventas, dashboards de empleados, análisis de productos, comparaciones regionales, métricas año contra año y navegación interactiva.
+Ejercicio práctico en Power BI para analizar datos de población de Estados Unidos por estado, región censal, división censal, año e indicadores de crecimiento poblacional. El dashboard permite explorar tendencias temporales y comparaciones geográficas mediante visualizaciones interactivas.
 
-**Archivo:** `Ejercicio3.pbix`
-**Temas:** Análisis de ventas, inteligencia de negocios, análisis de productos, desempeño regional.
+**Carpeta:** `Ejercicio1/`
+**Temas:** Análisis poblacional, regiones censales, crecimiento poblacional, mapas, visualización interactiva, Power BI.
 
-## Herramientas
+---
 
-Power BI, Power Query, Excel, Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, GitHub.
+### 5. Ejercicio2 – Dashboard de indicadores mundiales
+
+Ejercicio práctico en Power BI para explorar indicadores de desarrollo mundial por país y región. El dashboard incluye variables como población, PIB, PIB per cápita, densidad poblacional, comparaciones regionales y visualizaciones basadas en mapas.
+
+**Carpeta:** `Ejercicio2/`
+**Temas:** Indicadores mundiales, PIB, población, densidad poblacional, análisis regional, mapas, Power BI.
+
+---
+
+### 6. Ejercicio3 – Dashboard de ventas Adventure Works
+
+Ejercicio práctico en Power BI basado en datos de Adventure Works. El dashboard incluye análisis de ventas, desempeño de empleados, productos, regiones, métricas año contra año y navegación interactiva.
+
+Este proyecto está orientado a inteligencia de negocios y análisis de desempeño comercial.
+
+**Carpeta:** `Ejercicio3/`
+**Temas:** Inteligencia de negocios, análisis de ventas, productos, empleados, desempeño regional, métricas YoY, Power BI.
+
+## Herramientas utilizadas
+
+* Power BI
+* Power Query
+* Excel
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* GitHub
+
+## Objetivo del portafolio
+
+El objetivo de este portafolio es mostrar experiencia práctica en el análisis, procesamiento y visualización de datos mediante proyectos aplicados. Los proyectos incluidos demuestran habilidades en construcción de dashboards, análisis exploratorio, integración de datos, comunicación visual de resultados y aplicación de herramientas de ciencia de datos en contextos científicos y de práctica profesional.
 
 ## Contacto
 
