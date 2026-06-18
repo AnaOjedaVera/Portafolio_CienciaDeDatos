@@ -46,7 +46,7 @@ Este proyecto está relacionado con el uso de ciencia de datos para apoyar la in
 **Temas:** Taxonomía de asteroides, datos espectrales, albedo, indicadores espectrales, visualización científica, Power BI.
 
 <p align="center">
-  <img src="Asteroides/Asteroides.png" width="800">
+  <img src="Asteroides/Asteroides.png" width="600">
 </p>
 
 ---
