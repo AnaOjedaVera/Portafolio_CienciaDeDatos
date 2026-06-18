@@ -42,7 +42,12 @@ Proyecto enfocado en la comparación de clases taxonómicas de asteroides con ba
 Este proyecto está relacionado con el uso de ciencia de datos para apoyar la interpretación de patrones taxonómicos en cuerpos menores del Sistema Solar.
 
 **Carpeta:** `Asteroides/`
+**Archivo principal:** `Indicadores.pbix`
 **Temas:** Taxonomía de asteroides, datos espectrales, albedo, indicadores espectrales, visualización científica, Power BI.
+
+<p align="center">
+  <img src="Asteroides/Asteroides.png" width="800">
+</p>
 
 ---
 
@@ -53,7 +58,12 @@ Dashboard desarrollado para visualizar y comparar espectros de minerales, así c
 Este tipo de análisis es útil para la interpretación de datos espectrales en ciencias planetarias, mineralogía y teledetección.
 
 **Carpeta:** `Minerales/`
+**Archivo principal:** `Minerales2.pbix`
 **Temas:** Espectros minerales, bandas de absorción, comparación espectral, visualización científica, Power BI.
+
+<p align="center">
+  <img src="Minerales/Minerales.png" width="800">
+</p>
 
 ---
 
@@ -64,7 +74,12 @@ Dashboard desarrollado para explorar tipos y subtipos espectrales de estrellas. 
 Este ejercicio integra conceptos de astronomía, clasificación científica y visualización de datos.
 
 **Carpeta:** `Estrellas/`
+**Archivo principal:** `Estrellas.pbix`
 **Temas:** Clasificación estelar, tipos espectrales, subtipos estelares, astronomía, visualización de datos, Power BI.
+
+<p align="center">
+  <img src="Estrellas/Estrellas.png" width="800">
+</p>
 
 ---
 
@@ -73,7 +88,12 @@ Este ejercicio integra conceptos de astronomía, clasificación científica y vi
 Ejercicio práctico en Power BI para analizar datos de población de Estados Unidos por estado, región censal, división censal, año e indicadores de crecimiento poblacional. El dashboard permite explorar tendencias temporales y comparaciones geográficas mediante visualizaciones interactivas.
 
 **Carpeta:** `Ejercicio1/`
+**Archivo principal:** `Ejercicio1.pbix`
 **Temas:** Análisis poblacional, regiones censales, crecimiento poblacional, mapas, visualización interactiva, Power BI.
+
+<p align="center">
+  <img src="Ejercicio1/Ejercicio1.png" width="800">
+</p>
 
 ---
 
@@ -82,7 +102,16 @@ Ejercicio práctico en Power BI para analizar datos de población de Estados Uni
 Ejercicio práctico en Power BI para explorar indicadores de desarrollo mundial por país y región. El dashboard incluye variables como población, PIB, PIB per cápita, densidad poblacional, comparaciones regionales y visualizaciones basadas en mapas.
 
 **Carpeta:** `Ejercicio2/`
+**Archivo principal:** `Ejercicio2.pbix`
 **Temas:** Indicadores mundiales, PIB, población, densidad poblacional, análisis regional, mapas, Power BI.
+
+<p align="center">
+  <img src="Ejercicio2/Ejercicio2.png" width="800">
+</p>
+
+<p align="center">
+  <img src="Ejercicio2/Ejercicio2.1.png" width="800">
+</p>
 
 ---
 
@@ -93,7 +122,16 @@ Ejercicio práctico en Power BI basado en datos de Adventure Works. El dashboard
 Este proyecto está orientado a inteligencia de negocios y análisis de desempeño comercial.
 
 **Carpeta:** `Ejercicio3/`
+**Archivo principal:** `Ejercicio3.pbix`
 **Temas:** Inteligencia de negocios, análisis de ventas, productos, empleados, desempeño regional, métricas YoY, Power BI.
+
+<p align="center">
+  <img src="Ejercicio3/Ejercicio3.png" width="800">
+</p>
+
+<p align="center">
+  <img src="Ejercicio3/Ejercicio3.1.png" width="800">
+</p>
 
 ## Herramientas utilizadas
 
