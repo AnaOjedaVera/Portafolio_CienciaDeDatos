@@ -24,6 +24,7 @@ Ejercicio1/
 Ejercicio2/
 Ejercicio3/
 Estrellas/
+Mercurio/
 Minerales/
 ```
 
@@ -35,7 +36,21 @@ Cada carpeta incluye, según el proyecto:
 
 ## Proyectos
 
-### 1. Asteroides – Dashboard de indicadores espectrales y taxonomía
+### 1. Mercurio – Dashboard de métricas espectrales de la superficie de Mercurio
+
+Proyecto enfocado en el análisis y visualización de métricas espectrales calculadas a partir de espectros de reflectancia VIS-NIR de la superficie de Mercurio, utilizando datos MASCS/VIRS de la misión MESSENGER de la NASA.
+
+Este proyecto está relacionado con el artículo **“Spectral Metrics for Differentiating Mercury Surface Units from MASCS/VIRS VIS-NIR Data”**, aceptado para publicación en la **Revista Mexicana de Astronomía y Astrofísica (RMxAA)**. El dashboard permite explorar métricas espectrales como pendientes, curvaturas, índices de color, reflectancia y profundidades de banda para comparar diferentes unidades superficiales de Mercurio.
+
+**Carpeta:** `Mercurio/`  
+**Archivo principal:** `Mercurio.pbix`  
+**Temas:** Mercurio, MASCS/VIRS, espectros VIS-NIR, métricas espectrales, superficies planetarias, RMxAA, visualización científica, Power BI.
+
+<p align="center">
+  <img src="Mercurio/Fig8.png" width="800">
+</p>
+
+### 2. Asteroides – Dashboard de indicadores espectrales y taxonomía
 
 Proyecto enfocado en la comparación de clases taxonómicas de asteroides con base en DeMeo et al. (2009). El dashboard permite analizar diferencias espectrales entre clases, comportamiento de reflectancia, indicadores espectrales y valores de albedo.
 
@@ -51,7 +66,7 @@ Este proyecto está relacionado con el uso de ciencia de datos para apoyar la in
 
 ---
 
-### 2. Minerales – Dashboard de espectros minerales y bandas de absorción
+### 3. Minerales – Dashboard de espectros minerales y bandas de absorción
 
 Dashboard desarrollado para visualizar y comparar espectros de minerales, así como sus bandas de absorción. El proyecto permite explorar diferencias espectrales entre minerales y analizar características diagnósticas asociadas con distintos grupos minerales.
 
@@ -67,7 +82,7 @@ Este tipo de análisis es útil para la interpretación de datos espectrales en 
 
 ---
 
-### 3. Estrellas – Dashboard de tipos y subtipos espectrales
+### 4. Estrellas – Dashboard de tipos y subtipos espectrales
 
 Dashboard desarrollado para explorar tipos y subtipos espectrales de estrellas. El proyecto permite visualizar información de clasificación estelar y comparar categorías espectrales mediante herramientas interactivas.
 
@@ -83,7 +98,7 @@ Este ejercicio integra conceptos de astronomía, clasificación científica y vi
 
 ---
 
-### 4. Ejercicio1 – Dashboard de población de Estados Unidos
+### 5. Ejercicio1 – Dashboard de población de Estados Unidos
 
 Ejercicio práctico en Power BI para analizar datos de población de Estados Unidos por estado, región censal, división censal, año e indicadores de crecimiento poblacional. El dashboard permite explorar tendencias temporales y comparaciones geográficas mediante visualizaciones interactivas.
 
@@ -97,7 +112,7 @@ Ejercicio práctico en Power BI para analizar datos de población de Estados Uni
 
 ---
 
-### 5. Ejercicio2 – Dashboard de indicadores mundiales
+### 6. Ejercicio2 – Dashboard de indicadores mundiales
 
 Ejercicio práctico en Power BI para explorar indicadores de desarrollo mundial por país y región. El dashboard incluye variables como población, PIB, PIB per cápita, densidad poblacional, comparaciones regionales y visualizaciones basadas en mapas.
 
@@ -115,7 +130,7 @@ Ejercicio práctico en Power BI para explorar indicadores de desarrollo mundial 
 
 ---
 
-### 6. Ejercicio3 – Dashboard de ventas Adventure Works
+### 7. Ejercicio3 – Dashboard de ventas Adventure Works
 
 Ejercicio práctico en Power BI basado en datos de Adventure Works. El dashboard incluye análisis de ventas, desempeño de empleados, productos, regiones, métricas año contra año y navegación interactiva.
 
